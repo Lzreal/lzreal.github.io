@@ -24,9 +24,8 @@ body {
     -khtml-user-select: none;
     /*早期浏览器*/
     user-select: none;
-    /*background-color: rgb(197, 194, 194);
-    
-*/
+    font-size: 62.5%;
+    overflow-y: auto;
 }
 
 html,
@@ -35,7 +34,7 @@ body:focus {
 }
 
 #main-body {
-    width: 1600px;
+    width: 85%;
     height: 787px;
     display: block;
     margin: 5% auto;
@@ -45,7 +44,7 @@ body:focus {
 }
 
 #main-body-left {
-    width: 620px;
+    width: 38.2%;
     height: 100%;
     background-color: #A0DEF9;
     float: left;
@@ -53,99 +52,55 @@ body:focus {
 }
 
 #main-body-right {
-    width: 980px;
+    width: 61.8%;
     float: left;
     height: 100%;
     text-align: center;
 }
 
 #main-body-left-title {
-    width: 400px;
+    width: 100%;
     height: 60%;
-    margin: 10px 0 0 40px;
     text-shadow: 5px 2px 6px #aaa;
+    position: relative;
 }
 
 #main-body-left-title #title-main {
-    font-size: 80px;
-    width: 100px;
+    font-size: 6rem;
+    width: 20%;
     font-weight: bold;
     font-family: '楷体';
     text-align: center;
     float: left;
     height: 100%;
+    margin: 5% 0 0 5%;
 }
 
 #main-body-left-title #title-sous {
-    font-size: 25px;
+    font-size: 2rem;
     font-family: '仿宋';
-    width: 32px;
+    width: 5%;
     float: left;
-    margin-top: 20px;
+    margin-top: 3%;
     height: 60%;
+    margin-top: 8%;
 }
 
 #main-body-left-title #title-English {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 300px;
-    float: left;
-    height: 20%;
-    float: left;
-    margin-top: 30px;
+    width: 75%;
+    margin-top: 65%;
 }
 
 #main-body-right img {
     flex: none;
 }
 
-#submit-table {
-    float: right;
-    margin-right: 5%;
-    width: 500px;
-    height: auto;
-    table-layout: fixed;
-    text-align: center;
-}
-
-#submit-table div.submit-table-line {
-    margin-top: 40px;
-    width: 100%;
-    text-align: center;
-}
-
-#submit-table div.table-sign {
-    width: 5px;
-    height: 100%;
-    float: left;
-}
-
-#submit-table div.table-title {
-    width: 80px;
-    text-align-last: justify;
-    height: 100%;
-    float: left;
-}
-
-#submit-table div.table-input {
-    width: 350px;
-    height: 100%;
-    float: left;
-}
-
-#submit-table button {
-    float: left;
-    width: 100px;
-    font-size: 30px;
-    height: 100%;
-    border-radius: 15px;
-    margin-right: 30px;
-}
-
 #click-to-enter {
-    width: 200px;
+    width: 30%;
     margin: 0 auto;
-    height: 100px;
+    height: 13%;
     border-radius: 0%;
     background-color: #A0DEF9;
     margin-top: 8%;
@@ -159,9 +114,9 @@ body:focus {
 
 #click-to-enter:hover {
     transition: all 0.3s linear;
-    width: 200px;
+    width: 30%;
     margin: 0 auto;
-    height: 100px;
+    height: 13%;
     border-radius: 50%;
     background-color: #50A8CD;
     color: #C6E2F0;
